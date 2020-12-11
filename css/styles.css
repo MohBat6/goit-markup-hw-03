@@ -12,7 +12,6 @@
  }
 body {
     font-family: Roboto, sans-serif;
-    background-color: var(--background-main-color);
     color: var(--main-text-color);
     Letter-spacing: 0.03em;
 }
@@ -50,7 +49,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    background-color: var(--background-main-color);
 }
 .main-nav {
     display: flex;
@@ -120,8 +118,8 @@ margin-right: 50px;
 }
  .hero {
      width: 1600px;
-     margin-left: auto;
      margin-right: auto;
+     margin-left: auto;
      text-align: center;
      padding-top: 200px;
      padding-bottom: 200px;
@@ -173,6 +171,13 @@ margin-right: 50px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 } 
+.section {
+    padding-top: 94px;
+}
+.section2 {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .section-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -230,15 +235,6 @@ color: var(--main-text-color);
 .advantages-title {
     display: none;
 }
-.section {
-    Width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 94px;
-    background-color: var(--background-main-color);
-}
 .work-examples-list {
     display: flex;
     flex-wrap: wrap;
@@ -252,10 +248,9 @@ color: var(--main-text-color);
 }
 footer {
     width: 1600px;
-    margin-top: 94px;
     margin-left: auto;
     margin-right: auto;
-    padding: 60px 215px;
+    padding: 60px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     background-color: #2F303A;
